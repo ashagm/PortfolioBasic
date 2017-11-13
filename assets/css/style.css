@@ -1,0 +1,184 @@
+* {
+ 	box-sizing: border-box;
+ 	position: relative;
+ }
+
+html, body {
+	height: 100%;
+}
+
+body {	
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Header section*/
+header{
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #fff;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header a:link, a:visited{
+	text-decoration: none;
+	color: #cccccc;
+}
+
+header a:hover, a:active {
+    color: #4aaaa5;
+}
+
+.header-name{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 32px;
+	padding: 20px;
+	float: left;
+}
+
+.nav-links{
+	float: right;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*end of header section*/
+
+/*Main content section*/
+
+#container{	
+	background: red url('../images/bg_img.png') center no-repeat;
+	background-size: cover;	
+	width: 100%;
+	height: 500px; 
+	border-top: 2px solid #ccc;
+	overflow: auto;
+}
+
+.main-content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+article, aside{
+	border: 2px solid #ccc;
+}
+
+.main-content article h2{
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+hr{
+	border-color: #ccc;
+}
+
+.content-info{
+	background-color: #fff;
+	width: 650px;
+	float: left;
+	margin: 20px 10px 20px 0px;
+	padding: 25px;
+}
+
+.content-info label{
+	/*margin-bottom: 20px;*/
+}
+
+#submit{
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 100px;
+}
+
+.content-info input, textarea{
+	color: #777777;
+	width: 585px;
+	padding: 5px 0px 5px 0px;
+	font-size: 18px;
+	line-height: 1.3em;
+	margin: 10px 0px;
+}
+
+figure.about-me-img img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 1em;
+}
+
+#about-me .about-me-txt{
+	text-align: justify;
+	line-height: 1.3em;
+}
+
+
+.content-info .left-col{
+	float: left;
+}
+
+.content-info .right-col{
+	float: right;
+}
+
+.port-pic{
+	margin: 5px 5px 5px 0px;
+	position: relative;
+}
+
+.port-pic-label{
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 20px;
+	bottom: 20px;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.port-img{
+	border: 2px solid #000;
+}
+
+.connect{
+	background-color: #fff;
+	width: 270px;
+	height: 150px;
+	float:left;
+	padding: 20px 30px;
+	margin: 20px 10px;
+	text-align: center;
+}
+
+.connect h2{
+	font-size: 20px;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.connect-logo{
+	width: 60px;
+	height: 60px;
+}
+
+
+/*End of main content*/
+
+footer{
+	background-color: #666666;	
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	padding: 30px;
+	font-size: 12px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
