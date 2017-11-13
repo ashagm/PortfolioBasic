@@ -5,10 +5,12 @@
 
 html, body {
 	height: 100%;
+	margin: 0;
 }
 
 body {	
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 /*Header section*/
@@ -52,7 +54,6 @@ header a:hover, a:active {
 	background: red url('../images/bg_img.png') center no-repeat;
 	background-size: cover;	
 	width: 100%;
-	height: 500px; 
 	border-top: 2px solid #ccc;
 	overflow: auto;
 }
@@ -72,20 +73,12 @@ article, aside{
 	font-weight: bold;
 }
 
-hr{
-	border-color: #ccc;
-}
-
 .content-info{
 	background-color: #fff;
 	width: 650px;
 	float: left;
 	margin: 20px 10px 20px 0px;
 	padding: 25px;
-}
-
-.content-info label{
-	/*margin-bottom: 20px;*/
 }
 
 #submit{
@@ -103,6 +96,10 @@ hr{
 	margin: 10px 0px;
 }
 
+textarea{
+	outline-color: #ccc;
+}
+
 figure.about-me-img img{
 	width: 150px;
 	height: 150px;
@@ -115,7 +112,6 @@ figure.about-me-img img{
 	line-height: 1.3em;
 }
 
-
 .content-info .left-col{
 	float: left;
 }
@@ -127,6 +123,13 @@ figure.about-me-img img{
 .port-pic{
 	margin: 5px 5px 5px 0px;
 	position: relative;
+}
+
+.port-pic:hover
+{
+	-moz-box-shadow: 0 0 10px red;
+	-webkit-box-shadow: 0 0 10px red;
+	box-shadow: 0 0 20px red;
 }
 
 .port-pic-label{
@@ -163,8 +166,12 @@ figure.about-me-img img{
 .connect-logo{
 	width: 60px;
 	height: 60px;
+	opacity: 0.8;
 }
 
+.connect-logo:hover{
+	opacity: 1;
+}
 
 /*End of main content*/
 
@@ -174,6 +181,7 @@ footer{
 	text-align: center;
 	padding: 30px;
 	font-size: 12px;
+	color: #ccc;
 }
 
 
