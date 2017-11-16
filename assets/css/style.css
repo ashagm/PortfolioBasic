@@ -103,6 +103,7 @@ article, aside{
 #submit:hover {
     background-color: #ccc;
     color: #fff;
+    cursor: pointer;
 }
 
 .content-info input, textarea{
